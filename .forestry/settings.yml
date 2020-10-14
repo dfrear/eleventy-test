@@ -13,6 +13,11 @@ sections:
   match: "*.md"
   templates:
   - post
+- type: directory
+  path: lorem ipsum sid amet
+  label: test dir
+  create: all
+  match: "**/testing"
 - type: heading
   label: Globals
 - type: document
